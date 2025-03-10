@@ -1,0 +1,50 @@
+.footer h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer p, .footer ul li {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.footer-logo {
+    width: 200px;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer ul li {
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer ul li:hover {
+    color: #007bff; /* Bootstrap Primary Color */
+}
+
+@media (max-width: 768px) {
+    .footer h5 {
+        font-size: 16px;
+    }
+    .footer p, .footer ul li {
+        font-size: 14px;
+    }
+    .footer-logo {
+        width: 150px;
+    }
+}
+@media (max-width: 576px) {
+    .footer h5 {
+        font-size: 14px;
+    }
+    .footer p, .footer ul li {
+        font-size: 12px;
+    }
+    .footer-logo {
+        width: 130px;
+    }
+}

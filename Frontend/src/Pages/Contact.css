@@ -1,0 +1,31 @@
+.contact{
+    color:gray;
+}
+.fh2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #4B5563;
+}
+span{
+    color:black;
+    font-weight: 600;
+}
+.inner img{
+  height:364px;
+}
+.explore{
+    font-size: 14px;
+}
+.explore h2{
+    font-size: 18px;
+    color:#4B5563;
+    font-weight: 600;
+}
+.explore button{
+    font-size: 14px;
+}
+.exp-jobs:hover{
+    color:white;
+    background-color: black;
+    border:none;
+}

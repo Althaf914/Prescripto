@@ -1,0 +1,63 @@
+### get
+get http://localhost:3000/getdetails
+###post request
+post http://localhost:3000/signup
+Content-Type: application/json
+
+{
+    "fullname":"abhi",
+    "email":"abhi123@gmail.com",
+    "password":"1971"
+}
+
+###post for login
+post http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email":"abhi@gmail.com",
+    "password":"4321"
+}
+
+###logout
+post http://localhost:3000/logout
+Content-Type: application/json
+
+{
+    "email":"rkreddyg123@gmail.com",
+    "password":"1234"
+}
+
+###post add to appointments
+post http://localhost:3000/addtoappointments
+Content-Type: application/json
+
+{
+    "email":"rkreddyg123@gmail.com",
+    "doc":{
+    "_idx":105,
+    "name":"Dr. Sarah Patel",
+    "image":"/src/assets/assets/assets_frontend/doc3.png",
+    "speciality":"",
+    "fees":30,
+    "address":{
+"line1": "37th Cross, Richmond",
+"line2":"Circle, Ring Road, London"
+    }
+    },
+    "date":"10-11-24",
+    "day":"MON",
+    "time":"12:00PM"
+}
+
+###remove appointment
+post http://localhost:3000/removeappointment
+Content-Type: application/json
+
+{
+    "email":"rkreddyg123@gmail.com",
+    "_idx":104
+}
+
+###delete
+delete http://localhost:3000/remove/67acf33ccb69b0cb9ddb0089
